@@ -1,0 +1,44 @@
+.page-wrap {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.rect {
+    fill: blue;
+    stroke: white;
+    fill-opacity: 0.5;
+    stroke-width: 1px;
+}
+.border {
+    border: 2px dashed #ccc;
+}
+.slow-transform {
+    transition:all 1s linear;
+    -moz-transition:all 1s linear;
+    -webkit-transition:all 1s linear;
+    -o-transition:all 1s linear;
+}
+.svg-text {
+    fill: black;
+}
+.svg-text-white {
+    fill: white;
+}
+.rt-body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: linear-gradient(135deg, #005eee, #6b00ee);
+
+}
+#locations-wrap {
+    background: transparent;
+}
+.svg-info {
+    fill: white;
+}
+.body-back {
+    fill: #840000;
+    stroke-width: 1px;
+}
+
